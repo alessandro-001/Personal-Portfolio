@@ -2,7 +2,7 @@
 
 **WORK IN PROGRESS - THIS PORTFOLIO AND README ARE CURRENTLY INCOMPLETE**
 
-Welcome to my portfolio! This is a showcase of my work, skills, and experience in software development. I graduated from [Northcoders](https://www.northcoders.com/), a full-stack coding bootcamp, where I gained a solid foundation in web development
+Welcome to my portfolio! This is a showcase of my work, skills, and experience in software development. I graduated from [Northcoders](https://www.northcoders.com/), a full-stack coding bootcamp, where I gained a solid foundation in web development.
 
 ## Table of Contents
 
@@ -10,11 +10,11 @@ Welcome to my portfolio! This is a showcase of my work, skills, and experience i
 - [Projects](#projects)
 - [Contact](#contact)
 
----
+
 ## About
 I built this portfolio using [React](https://reactjs.org/) and [Vite.js](https://vitejs.dev/), a fast build tool for modern web development. The styling is done with [Tailwind CSS](https://tailwindcss.com/), a utility-first CSS framework that allows for rapid UI development. The combination of React, Vite.js, and Tailwind CSS enabled me to create a responsive and visually appealing web page.
 
----
+
 ## Projects
 
 List of projects.
@@ -26,7 +26,7 @@ Links also provided in the web portfolio
 
 
 
----
+
 ## Contact
 
 Check out my 
