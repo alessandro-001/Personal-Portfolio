@@ -7,24 +7,40 @@ Welcome to my portfolio! This is a showcase of my work, skills, and experience i
 ## Table of Contents
 
 - [About](#about)
-- [Projects](#projects)
+- [Instructions](#instructions)
 - [Contact](#contact)
 
 
 ## About
-I built this portfolio using [React](https://reactjs.org/) and [Vite.js](https://vitejs.dev/), a fast build tool for modern web development. The styling is done with [Tailwind CSS](https://tailwindcss.com/), a utility-first CSS framework that allows for rapid UI development. The combination of React, Vite.js, and Tailwind CSS enabled me to create a responsive and visually appealing web page.
+I built this portfolio using [React](https://reactjs.org/) and [Vite.js](https://vitejs.dev/), a fast build tool for modern web development. The styling is done with [Tailwind CSS](https://tailwindcss.com/), Its utility-based approach provides a wide range of pre-defined classes that I can apply directly to React tags, saving time and effort. 
+The combination of React, Vite.js, and Tailwind CSS enabled me to create a responsive and visually appealing web page.
 
 
-## Projects
+## Instructions
 
-List of projects.
-*
-*
-*
-Checkout my other [GitHub repositories](https://github.com/alessandro-001)!
-Links also provided in the web portfolio
+INSTRUCTIONS
+To correctly display the portfolio content in your own code editor, please follow these steps:
 
+Run the following command to install the necessary dependencies:
+```console
+npm install
+```
 
+After the installation is complete, run the following command to start the development server:
+```console
+npm run dev
+```
+
+Additionally, make sure to install the required dependencies by running the following command:
+```console
+npm install -D tailwindcss postcss autoprefixer
+```
+Finally, initialize Tailwind CSS configuration by running the following command:
+```console
+npx tailwind init -p
+```
+
+By following these instructions, you will be able to properly display and interact with the portfolio content in your own code editor.
 
 
 ## Contact
