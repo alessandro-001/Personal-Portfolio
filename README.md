@@ -18,7 +18,6 @@ The combination of React, Vite.js, and Tailwind CSS enabled me to create a respo
 
 ## Instructions
 
-INSTRUCTIONS
 To correctly display the portfolio content in your own code editor, please follow these steps:
 
 Run the following command to install the necessary dependencies:
