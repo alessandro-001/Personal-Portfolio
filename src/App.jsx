@@ -21,10 +21,21 @@ function App() {
         }
     }, [theme]);
 
+    function handleThemeSwitch() {
+        setTheme(theme === 'dark' ? 'light' : 'dark');
+    }
+
     return (
+      <>
+        <button
+          type="button"
+          onClick={handleThemeSwitch}
+          className="fixed z-10 right-2 top-2 bg-indigo-500 text-large p-1 rounded-md"
+        >{theme === 'dark' ? '🌜' : '🌞'}</button>
         <div className="font-inter bg:white dark:bg-slate-900">
             <MySection />
         </div>
+      </>
     )
 }
 
