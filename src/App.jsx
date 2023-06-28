@@ -1,9 +1,12 @@
 import React from "react";
+import MySection from "./components/MySection";
 
 
 function App() {
     return (
-        <h1 className="text-5xl text-cyan-400">App</h1>
+        <div className="font-inter">
+            <MySection />
+        </div>
     )
 }
 

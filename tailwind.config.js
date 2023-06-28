@@ -3,7 +3,11 @@ export default {
   content: ['./src/**/*.{jsx, js}'],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        inter: [ 'inter', 'serif']
+      }
+    },
   },
   plugins: [],
 }
