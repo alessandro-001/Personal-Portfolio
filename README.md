@@ -44,10 +44,6 @@ By following these instructions, you will be able to properly display and intera
 
 ## Contact
 
-Check out my 
-
-
-
-Thank you for visiting my portfolio! I hope you find it informative and engaging. If you have any questions or would like to discuss potential collaborations or opportunities, feel free to send me an [Email](mailto:alessandrofrondini@gmail.com) or drop me a message on [LinkedIn](https://www.linkedin.com/in/alefrondini/)!
+Thank you for visiting my portfolio! I hope you find it informative and engaging. If you have any questions or would like to discuss potential collaborations or opportunities, feel free to send me an [Email](mailto:alessandrofrondini@gmail.com) or drop me a message on [LinkedIn](https://www.linkedin.com/in/alefrondini/) !
 
 I'm looking forward to connecting with you!
