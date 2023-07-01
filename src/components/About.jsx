@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className='flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 py-20'>
         <div className='w-full md:w-6/12'>
-            <SectionTitle>About Me</SectionTitle>
+            <SectionTitle id='about-me'>About Me</SectionTitle>
             <p className='text-md "text-slate-900 dark:text-slate-300 text-md md:text-xl'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna molestie at elementum eu facilisis sed.    
             </p>

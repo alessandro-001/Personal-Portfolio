@@ -6,7 +6,7 @@ import works from '../data/projects'
 
 export default function Projects() {
   return (
-    <div className='py-10 '>
+    <div className='py-10'>
         <SectionTitle id='projects'>My Projects</SectionTitle>
         <div>
             {works.map(work => {

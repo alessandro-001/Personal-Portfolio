@@ -3,6 +3,7 @@ import MySection from "./components/MySection";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import About from "./components/About";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
             <Skills />
             <Projects />
             <About />
+            <Footer />
           </div>
         </div>
       </>
