@@ -15,4 +15,3 @@ function MySection() {
 
 export default MySection;
 
-//md = mobile device

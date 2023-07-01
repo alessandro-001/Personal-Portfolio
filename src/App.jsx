@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import MySection from "./components/MySection";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import About from "./components/About";
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
             <MySection />
             <Skills />
             <Projects />
+            <About />
           </div>
         </div>
       </>
