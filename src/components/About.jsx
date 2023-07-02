@@ -49,7 +49,7 @@ export default function About() {
         href='https://github.com/alessandro-001'
         target='_blank'
         rel='noopener noreferrer'
-       className='mt-3 text-indigo-700 dark:text-[#13ecd4] underline hover:text-pink-500 dark:hover:text-pink-500 flex items-center'
+        className='mt-3 text-indigo-700 dark:text-[#13ecd4] underline hover:text-pink-500 dark:hover:text-pink-500 flex items-center'
       >
         <VscGithub className="mr-2"/>
           GitHub
