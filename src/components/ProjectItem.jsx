@@ -3,6 +3,7 @@ import { VscGithub } from "react-icons/vsc";
 import { HiStatusOnline } from "react-icons/hi";
 
 
+
 export default function ProjectItem({imgUrl, title, tech, description, repolink, weblink}) {
 
     return (
