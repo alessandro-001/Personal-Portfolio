@@ -17,6 +17,7 @@ export default function Projects() {
                         title={work.title}
                         tech={work.tech}
                         description={work.description}
+                        repolink={work.repolink}
                     ></ProjectItem>
                 )
             })}

@@ -2,10 +2,11 @@ import { HiAcademicCap } from "react-icons/hi2";
 import { AiFillDatabase } from "react-icons/ai";
 import { AiOutlineStar } from "react-icons/ai";
 import ExpoLogo from '../../src/assets/expo-go-app-logo.png'
-
+import InsomniaLogo from '../../src/assets/insomnia-logo.png'
 
 
 export default [
+        /* Languages Tech */
     {
         title: 'Languages',
         description: 
@@ -27,6 +28,7 @@ export default [
             </div>,
         icon: <HiAcademicCap className="w-full h-full"></HiAcademicCap>
     },
+        /* Front-End Tech */
     {
         title: 'Front-End',
         description: 
@@ -77,7 +79,8 @@ export default [
             </div>,
         icon: <AiOutlineStar className="w-full h-full"></AiOutlineStar>
     },
-    {
+        /* Back-End Tech */
+    {    
         title: 'Back-End',
         description: 
             <div className="flex flex-row items-center gap-7">
@@ -115,6 +118,13 @@ export default [
                         alt="jest-logo"
                     />
                     <p className="text-xs text-center">Jest x TDD</p>
+                </div>
+                <div className="w-20">
+                    <img 
+                        src={InsomniaLogo} 
+                        alt="insomnia-logo"
+                    />
+                    <p className="text-xs text-center">Insomnia</p>
                 </div>
             </div>,
         icon: <AiFillDatabase className="w-full h-full"></AiFillDatabase>

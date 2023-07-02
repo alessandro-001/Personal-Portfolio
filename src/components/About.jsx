@@ -39,7 +39,7 @@ export default function About() {
         <a 
           href='https://www.linkedin.com/in/alefrondini/'
           target='_blank'
-          rel='noopener noreferrer'
+          rel='Alessandro Frondini'
           className='mt-3 text-indigo-700 dark:text-[#13ecd4] underline hover:text-pink-500 dark:hover:text-pink-500 flex items-center'
         >
           <BsLinkedin className="mr-2"/>
