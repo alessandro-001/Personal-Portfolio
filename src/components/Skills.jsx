@@ -24,5 +24,3 @@ function Skills() {
 export default Skills;
 
 
-//grid view: <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
-//flat list view: <div className='py-10'>
