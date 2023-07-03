@@ -11,7 +11,7 @@ const works = [
     repolink: 'https://github.com/alessandro-001/Love-Birds-App'
   },
   {
-    title: 'Weather or Not - Web App',
+    title: 'WeatherOrNot - Web App',
     imgUrl: WeatherOrNot,
     tech: ['React, Insomnia'],
     description: 'WeatherOrNot is a simple free web app that originated from a paired sprint with my colleague and has undergone further development. It effectively interacts with an external API, allowing users to access and retrieve accurate weather information.',
