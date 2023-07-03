@@ -1,7 +1,7 @@
 import React from 'react';
 import SectionTitle from './SectionTitle';
 import SkillItem from './SkillItem';
-import SkillsList from '../data/skillsList';
+import SkillsList from '../data/SkillsList';
 
 function Skills() {
   return (
