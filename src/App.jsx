@@ -4,7 +4,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import Footer from "./components/Footer";
-
+import Hamburger from "./components/Hamburger";
 
 function App() {
     const [theme, setTheme] = useState(null);
@@ -37,6 +37,9 @@ function App() {
           className="fixed z-10 right-2 top-2 bg-white dark:bg-slate-900 text-5xl p-1 rounded-md"
         >{theme === 'dark' ? '🌜' : '🌞'}</button>
         <div className="font-inter bg:white dark:bg-slate-900">
+          <div>
+            <Hamburger />
+          </div>
           <div className="max-w-5xl mx-auto w-11/12">
             <MySection />
             <Skills />
