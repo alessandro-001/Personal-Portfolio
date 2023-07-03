@@ -6,7 +6,7 @@ import SkillsList from '../data/SkillsList';
 function Skills() {
   return (
     <div className='py-10'>
-      <SectionTitle>My Skills</SectionTitle>
+      <SectionTitle id='skills'>My Skills</SectionTitle>
       <div className='py-10'>
         {SkillsList.map(skill => (
           <SkillItem
