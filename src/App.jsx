@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Hamburger from "./components/Hamburger";
+import Banner from "./components/Banner";
 
 function App() {
     const [theme, setTheme] = useState(null);
@@ -41,6 +42,7 @@ function App() {
             <Hamburger />
           </div>
           <div className="max-w-5xl mx-auto w-11/12">
+            <Banner />
             <MySection />
             <Skills />
             <Projects />
