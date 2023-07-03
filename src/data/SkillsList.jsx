@@ -32,7 +32,7 @@ export default [
     {
         title: 'Front-End',
         description: 
-            <div className="flex flex-row items-center gap-7">
+            <div className="grid max-w-xl sm:grid-cols-2 grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-6 lg:gap-y-16">
                 <div className="w-20">
                     <img 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" 
