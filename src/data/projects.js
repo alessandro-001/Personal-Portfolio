@@ -13,7 +13,7 @@ const works = [
   {
     title: 'WeatherOrNot - Web App',
     imgUrl: WeatherOrNot,
-    tech: ['React, Insomnia'],
+    tech: ['React', 'Insomnia'],
     description: 'WeatherOrNot is a simple free web app that originated from a paired sprint with my colleague and has undergone further development. It effectively interacts with an external API, allowing users to access and retrieve accurate weather information.',
     repolink: 'https://github.com/alessandro-001/WeatherOrNot',
     weblink: 'https://weatherornot4114.netlify.app/'
@@ -21,7 +21,7 @@ const works = [
   {
     title: 'NC News - Web App',
     imgUrl: NCnewsImage,
-    tech: ['React, Insomnia'],
+    tech: ['React', 'Insomnia'],
     description: 'WeatherOrNot is a simple free web app that originated from a paired sprint with my colleague and has undergone further development. It effectively interacts with an external API, allowing users to access and retrieve accurate weather information.',
     repolink: 'https://github.com/alessandro-001/WeatherOrNot',
     weblink: 'https://alessandro-news.netlify.app/',

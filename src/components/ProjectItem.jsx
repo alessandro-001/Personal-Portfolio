@@ -46,7 +46,7 @@ export default function ProjectItem({imgUrl, title, tech, description, repolink,
                 {tech.map(item => (
                 <span
                     key={item}
-                    className="inline-block px-2 py-2 bg-slate-300 dark:bg-slate-900 rounded-lg"
+                    className="inline-block px-2 py-2 bg-slate-300 dark:bg-slate-700 dark:text-white rounded-lg"
                 >
                     {item}
                 </span>
