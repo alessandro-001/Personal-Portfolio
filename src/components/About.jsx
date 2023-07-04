@@ -27,7 +27,7 @@ export default function About() {
         As I transition to the tech industry, I am driven by my genuine passion for the field and strong work ethic. I highly
         value teamwork and believe in the power of collaboration. 
         Additionally, my soft skills, such as effective time management, maintaining
-        quality standards, and staying organized will contribute to my success in this new role.
+        quality standards, attention to details and staying organized will contribute to my success in this new role.
         </p>
       <a 
         href='mailto:alessandrofrondini@gmail.com'
