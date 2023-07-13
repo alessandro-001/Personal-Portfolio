@@ -8,7 +8,7 @@ const works = [
     imgUrl: LoveBirdsImage,
     tech: ['Typescript', 'React Native', 'TailwindCSS', 'Firebase'],
     description: 'This mobile app is the outcome of our team\'s collaboration during a Full-Stack Bootcamp. The front-end has been built with TypeScript, React Native, and Tailwind, while the back-end is supported by Google Firebase. This project showcase our newly acquired skills in developing a modern mobile application.',
-    repolink: 'https://github.com/alessandro-001/Love-Birds-App'
+    repolink: 'https://github.com/alessandro-001/Love-Birds-App',
   },
   {
     title: 'WeatherOrNot - Web App',
