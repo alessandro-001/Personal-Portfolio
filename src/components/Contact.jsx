@@ -15,7 +15,7 @@ export default function Contact() {
         'service_oaegebh',
         'template_dienvtz',
         form.current,
-        'F_xohcByZGPvcRVBb'
+        'F_xohcByZGPvcRVBb',
       )
       .then((result) => {
         console.log(result.text);
@@ -66,7 +66,9 @@ export default function Contact() {
         <div className='py-5 flex justify-center'>
           <button type="submit" disabled={isSent} className="inline-block mx-2 mb-2 md:mx-2 md:mb-0 px-8 py-4 border border-slate-900 dark:border-[#13ecd4] dark:hover:border-pink-500 text-base font-medium rounded-md text-slate-900 dark:text-[#13ecd4] hover:bg-slate-900 dark:hover:text-pink-500 hover:text-white md:text-md">Send</button>
         </div>
-        {isSent && <p>Message sent!</p>}
+        <div className='py-5 flex justify-center dark:text-[#13ecd4]'>
+          {isSent && <p>Message sent!</p>}
+        </div>
       </form>
     </div>
   </>
