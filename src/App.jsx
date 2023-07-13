@@ -6,6 +6,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Hamburger from "./components/Hamburger";
 import Banner from "./components/Banner";
+import Contact from "./components/Contact";
 
 function App() {
     const [theme, setTheme] = useState(null);
@@ -47,6 +48,7 @@ function App() {
             <Skills />
             <Projects />
             <About />
+            <Contact />
             <Footer />
           </div>
         </div>
