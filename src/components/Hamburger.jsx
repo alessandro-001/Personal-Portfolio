@@ -31,7 +31,10 @@ export default function Hamburger() {
                     <a href="#projects" className="dark:hover:text-pink-500 hover:text-pink-500">Projects</a>
                 </li>
                 <li className="bg-slate-300 dark:bg-gray-400 rounded-lg text-center">
-                    <a href="#about-me" className="dark:hover:text-pink-500 hover:text-pink-500">Contact</a>
+                    <a href="#about-me" className="dark:hover:text-pink-500 hover:text-pink-500">About Me</a>
+                </li>
+                <li className="bg-slate-300 dark:bg-gray-400 rounded-lg text-center">
+                    <a href="#contact" className="dark:hover:text-pink-500 hover:text-pink-500">Contact</a>
                 </li>
             </ul>
             )}
