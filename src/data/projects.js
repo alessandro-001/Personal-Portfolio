@@ -22,7 +22,7 @@ const works = [
     title: 'NC News - Web App',
     imgUrl: NCnewsImage,
     tech: ['React', 'Insomnia'],
-    description: 'WeatherOrNot is a simple free web app that originated from a paired sprint with my colleague and has undergone further development. It effectively interacts with an external API, allowing users to access and retrieve accurate weather information.',
+    description: 'NC news revolves around fetching article data from an external API and rendering it for an enhanced user experience. The project demonstrates utilising simple API integration, data fetching, and front-end rendering techniques to create an appealing interface for users to explore articles.',
     repolink: 'https://github.com/alessandro-001/WeatherOrNot',
     weblink: 'https://alessandro-news.netlify.app/',
   },
