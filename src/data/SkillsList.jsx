@@ -1,6 +1,8 @@
 import { HiAcademicCap } from "react-icons/hi2";
 import { AiFillDatabase } from "react-icons/ai";
 import { AiOutlineStar } from "react-icons/ai";
+import { GiBookmarklet } from "react-icons/gi";
+import { GiBinoculars } from "react-icons/gi";
 import ExpoLogo from '../../src/assets/expo-go-app-logo.png'
 import InsomniaLogo from '../../src/assets/insomnia-logo.png'
 
@@ -129,4 +131,28 @@ export default [
             </div>,
         icon: <AiFillDatabase className="w-full h-full"></AiFillDatabase>
     },
+        /* currently learning */
+    {
+        title: 'Currently Exploring',
+        description: 
+        <div className="flex max-w-xl sm:grid-cols-2 grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-6 lg:gap-y-16">
+                <div className="w-20">
+                    <img 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" 
+                        alt="csharp-logo"
+                    />
+                    <p className="text-xs text-center">C#</p>
+                </div>
+        </div>,
+        icon: <GiBinoculars className="w-full h-full"></GiBinoculars>
+    },
+        /* extra tech */
+    // {
+    //     title: 'Other Softwares I Use',
+    //     description: 
+    //     <div className="flex max-w-xl sm:grid-cols-2 grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-6 lg:gap-y-16">
+                
+    //     </div>,
+    //     icon: <GiBookmarklet className="w-full h-full"></GiBookmarklet>
+    // },
 ]
