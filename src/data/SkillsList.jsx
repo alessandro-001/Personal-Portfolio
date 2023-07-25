@@ -3,6 +3,7 @@ import { AiFillDatabase } from "react-icons/ai";
 import { AiOutlineStar } from "react-icons/ai";
 import { GiBookmarklet } from "react-icons/gi";
 import { GiBinoculars } from "react-icons/gi";
+import { HiCode } from "react-icons/hi";
 import ExpoLogo from '../../src/assets/expo-go-app-logo.png'
 import InsomniaLogo from '../../src/assets/insomnia-logo.png'
 
@@ -166,6 +167,6 @@ export default [
                     <p className="text-xs text-center">Visual Studio</p>
                 </div>
         </div>,
-        icon: <GiBookmarklet className="w-full h-full"></GiBookmarklet>
+        icon: <HiCode className="w-full h-full"></HiCode>
     },
 ]
