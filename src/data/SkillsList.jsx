@@ -147,12 +147,25 @@ export default [
         icon: <GiBinoculars className="w-full h-full"></GiBinoculars>
     },
         /* extra tech */
-    // {
-    //     title: 'Other Softwares I Use',
-    //     description: 
-    //     <div className="flex max-w-xl sm:grid-cols-2 grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-6 lg:gap-y-16">
-                
-    //     </div>,
-    //     icon: <GiBookmarklet className="w-full h-full"></GiBookmarklet>
-    // },
+    {
+        title: 'Code Editors',
+        description: 
+        <div className="flex max-w-xl sm:grid-cols-2 grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-6 lg:gap-y-16">
+                <div className="w-20">
+                    <img 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" 
+                        alt="vsc-logo"
+                    />
+                    <p className="text-xs text-center">VSCode</p>
+                </div>    
+                <div className="w-20">
+                    <img 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" 
+                        alt="visual-studio-logo"
+                    />
+                    <p className="text-xs text-center">Visual Studio</p>
+                </div>
+        </div>,
+        icon: <GiBookmarklet className="w-full h-full"></GiBookmarklet>
+    },
 ]
