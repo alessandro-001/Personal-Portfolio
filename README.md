@@ -1,6 +1,6 @@
 # Alessandro's Personal Portfolio:
 
-**WORK IN PROGRESS - THIS PORTFOLIO AND README ARE CURRENTLY INCOMPLETE**
+**WORK IN PROGRESS - THIS PORTFOLIO IS IN CONTINUOUS DEVELOPMENT**
 
 Welcome to my portfolio! This is a showcase of my work, skills, and experience in software development. I graduated from [Northcoders](https://www.northcoders.com/), a full-stack coding bootcamp, where I gained a solid foundation in web development.
 
