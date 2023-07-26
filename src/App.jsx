@@ -1,12 +1,9 @@
 import React, { useEffect, useState } from "react";
-import MySection from "./components/MySection";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import About from "./components/About";
-import Footer from "./components/Footer";
-import Hamburger from "./components/Hamburger";
-import Banner from "./components/Banner";
-import Contact from "./components/Contact";
+
+//good code practices...
+import Components from "./components"; 
+// Now you can use the components individually:
+const { MySection, Skills, Projects, About, Footer, Hamburger, Banner, Contact } = Components;
 
 function App() {
     const [theme, setTheme] = useState(null);
