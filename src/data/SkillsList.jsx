@@ -134,7 +134,7 @@ export default [
     },
         /* currently learning */
     {
-        title: 'Currently Exploring',
+        title: 'Currently Learning',
         description: 
         <div className="flex max-w-xl sm:grid-cols-2 grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-6 lg:gap-y-16">
                 <div className="w-20">
@@ -143,6 +143,13 @@ export default [
                         alt="csharp-logo"
                     />
                     <p className="text-xs text-center">C#</p>
+                </div>
+                <div className="w-20">
+                    <img 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" 
+                        alt="figma-logo"
+                    />
+                    <p className="text-xs text-center">Figma</p>
                 </div>
         </div>,
         icon: <GiBinoculars className="w-full h-full"></GiBinoculars>
