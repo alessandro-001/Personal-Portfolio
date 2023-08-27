@@ -154,7 +154,7 @@ export default [
         </div>,
         icon: <GiBinoculars className="w-full h-full"></GiBinoculars>
     },
-        /* extra tech */
+        /* extra tech: */
     {
         title: 'Code Editors',
         description: 
