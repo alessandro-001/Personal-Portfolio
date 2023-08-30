@@ -1,6 +1,7 @@
 import LoveBirdsImage from '../../src/assets/LOVE-BIRDS-app1.png';
 import WeatherOrNot from '../../src/assets/WeatherornotApp.png';
 import NCnewsImage from '../../src/assets/NCNEWS.png';
+import Pomodoro from '../../src/assets/pomodoro.png';
 
 const works = [
   {
@@ -25,6 +26,13 @@ const works = [
     description: 'NC news revolves around fetching article data from an external API and rendering it for an enhanced user experience. The project demonstrates utilising simple API integration, data fetching, and front-end rendering techniques to create an appealing interface for users to explore articles.',
     repolink: 'https://github.com/alessandro-001/WeatherOrNot',
     weblink: 'https://alessandro-news.netlify.app/',
+  },
+  {
+    title: 'Pomodoro Timer - Mobile App',
+    imgUrl: Pomodoro,
+    tech: ['Typescript', 'React Native', 'Expo'],
+    description: 'Enhance your productivity with the Pomodoro Timer app built in React Native using TypeScript and Expo. Stay focused and manage your time effectively using the proven Pomodoro technique. This app provides adjustable focus and break intervals, along with a soothing chime sound to signal transitions.',
+    repolink: 'https://github.com/alessandro-001/Pomodoro-timer',
   },
 ];
 
