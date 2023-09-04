@@ -19,20 +19,20 @@ export default function ProjectItem({imgUrl, title, tech, description, repolink,
                 <p className="text-slate-900 dark:text-slate-300 text-md md:text-xl">
                     {description}
                 </p>
-                <div className="py-2 mx-5 mt-8 px-8 border border-slate-900 dark:border-[#13ecd4] dark:hover:border-pink-500 text-base font-medium rounded-md text-slate-900 dark:text-[#13ecd4] hover:bg-slate-900 dark:hover:text-pink-500 hover:text-white md:text-md text-center justify-center">
+                <button className="py-2 mx-5 mt-8 px-8 border border-slate-900 dark:border-[#13ecd4] dark:hover:border-pink-500 text-base font-medium rounded-md text-slate-900 dark:text-[#13ecd4] hover:bg-slate-900 dark:hover:text-pink-500 hover:text-white md:text-md text-center justify-center">
                     <a href={repolink} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
                         <VscGithub className="mr-2" />
                         <span>GitHub Repository</span>
                     </a>
-                </div>
-                <div className={`py-2 mx-5 mt-8 px-8 ${weblink ? 'border border-slate-900 dark:border-[#13ecd4] dark:hover:border-pink-500' : ''} text-base font-medium rounded-md text-slate-900 dark:text-[#13ecd4] hover:bg-slate-900 dark:hover:text-pink-500 hover:text-white md:text-md text-center flex items-center justify-center`}>
+                </button>
+                <button className={`py-2 mx-5 mt-8 px-8 ${weblink ? 'border border-slate-900 dark:border-[#13ecd4] dark:hover:border-pink-500' : ''} text-base font-medium rounded-md text-slate-900 dark:text-[#13ecd4] hover:bg-slate-900 dark:hover:text-pink-500 hover:text-white md:text-md text-center flex items-center justify-center`}>
                     {weblink && (
                         <a href={weblink} target="_blank" rel="noopener noreferrer" className="flex items-center">
                             <HiStatusOnline className="mr-2" />
                             <span>Try me online!</span>
                         </a>
                     )}
-                </div>
+                </button>
             </div>
             </div>
             <div className="w-full md:w-4/5 md:pl-8 flex flex-col items-center">
