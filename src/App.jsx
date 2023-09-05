@@ -8,7 +8,7 @@ import Hamburger from "./components/Hamburger";
 import Banner from "./components/Banner";
 import Contact from "./components/Contact";
 
-
+import NewSkillsList from "./data/NewSkillsList";
 
 function App() {
     const [theme, setTheme] = useState(null);
@@ -47,6 +47,7 @@ function App() {
           <div className="max-w-5xl mx-auto w-11/12">
             <Banner />
             <MySection />
+            <NewSkillsList />
             <Skills />
             <Projects />
             <About />
