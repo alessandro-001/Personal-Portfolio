@@ -19,7 +19,7 @@ export default function NewSkillsList() {
                 <HiAcademicCap className="w-20 h-20 px-5"></HiAcademicCap>
                 <p className="mb-2 sm:mr-2 sm:mb-0">LANGUAGES</p>
             </div>
-            <div className='w-full grid grid-cols-3 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
+            <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
                 <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#ffff00] shadow-slate-800'>
                     <img 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
@@ -43,7 +43,7 @@ export default function NewSkillsList() {
                 <AiOutlineStar className="w-20 h-20 px-5"></AiOutlineStar>
                 <p className="mb-2 sm:mr-2 sm:mb-0">FRONTEND</p>
             </div>
-            <div className='w-full grid grid-cols-3 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
+            <div className='w-full grid grid-cols-3 sm:grid-cols-3 gap-8 text-center py-8 px-12.5 sm:px-0'>
                 <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#13ecd4] shadow-slate-800 sm:py-2 sm:w-64 md:w-72'>
                     <img 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" 
@@ -98,7 +98,7 @@ export default function NewSkillsList() {
                         alt="materialUI-logo"
                         className='w-20 mx-auto'
                     />
-                    <p className='mt-4'>Material-UI</p>
+                    <p className='mt-4'>Material UI</p>
                 </div>
                 <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#f708ee] shadow-slate-800 sm:py-2 sm:w-64 md:w-72'>
                     <img 
@@ -115,7 +115,7 @@ export default function NewSkillsList() {
                 <AiFillDatabase className="w-20 h-20 px-5"></AiFillDatabase>
                 <p className="mb-2 sm:mr-2 sm:mb-0">BACKEND</p>
             </div>
-            <div className='w-full grid grid-cols-3 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
+            <div className='w-full grid grid-cols-3 sm:grid-cols-3 gap-8 text-center py-8 px-12.5 sm:px-0'>
                 <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#ff0043] shadow-slate-800 sm:py-2 sm:w-64 md:w-72'>
                     <img 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" 
@@ -138,7 +138,7 @@ export default function NewSkillsList() {
                         alt="postgresql-logo"
                         className='w-20 mx-auto'
                     />
-                    <p className='mt-4'>PostgreSQL</p>
+                    <p className='mt-4'>Postgre SQL</p>
                 </div>
                 <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#ff9500] shadow-slate-800 sm:py-2 sm:w-64 md:w-72'>
                     <img 
@@ -154,7 +154,7 @@ export default function NewSkillsList() {
                         alt="jest-logo"
                         className='w-20 mx-auto'
                     />
-                    <p className='mt-4'>Jest x TDD</p>
+                    <p className='mt-4'>Jest</p>
                 </div>
                 <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#ba00ff] shadow-slate-800 sm:py-2 sm:w-64 md:w-72'>
                     <img 
@@ -167,19 +167,20 @@ export default function NewSkillsList() {
 
             
             </div>
+            
             {/* tools tech */}
             <div className="flex flex-col sm:flex-row items-center">
                 <BsTools className="w-20 h-20 px-5"></BsTools>
                 <p className="mb-2 sm:mr-2 sm:mb-0">TOOLS</p>
             </div>
-            <div className='w-full grid grid-cols-3 sm:grid-cols-3 gap-8 text-center py-8 px-4 sm:px-0'>
+            <div className='w-full grid grid-cols-3 sm:grid-cols-3 gap-8 text-center py-8 px-12.5 sm:px-0'>
                 <div className='shadow-md hover:scale-110 duration-500 py-4 px-4 rounded-xl dark:shadow-[#d6295e] shadow-slate-800 sm:py-2 sm:w-64 md:w-72'>
                     <img 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
                         alt="jest-logo"
                         className='w-20 mx-auto'
                     />
-                    <p className='mt-4'>Git x Version Control</p>
+                    <p className='mt-4'>Git Version Control</p>
                 </div>
                 <div className='shadow-md hover:scale-110 duration-500 py-4 px-4 rounded-xl dark:shadow-[#084ff7] shadow-slate-800 sm:py-2 sm:w-64 md:w-72'>
                     <img 
