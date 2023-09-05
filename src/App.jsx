@@ -48,7 +48,7 @@ function App() {
             <Banner />
             <MySection />
             <NewSkillsList />
-            <Skills />
+            {/* <Skills /> */}
             <Projects />
             <About />
             <Contact />
