@@ -25,7 +25,7 @@ export default function Hamburger() {
           </div>
         </button>
         {isNavOpen && (
-          <ul className="menu absolute top-full mt-2 left-0 bg-transparent shadow-md rounded-md p-2 font-semibold text-2xl space-y-5">
+          <ul className="menu absolute top-full mt-2 left-0 bg-white dark:bg-gray-800 shadow-md rounded-md p-2 font-semibold text-2xl space-y-5">
             <li className="bg-slate-300 dark:bg-gray-400 rounded-lg text-center" onClick={handleMenuItemClick}>
               <a href="#skills" className="dark:hover:text-pink-500 hover:text-pink-500 px-10">Skills</a>
             </li>
