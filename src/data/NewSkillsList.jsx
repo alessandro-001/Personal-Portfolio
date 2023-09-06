@@ -1,6 +1,7 @@
 import React from 'react';
 import ExpoLogo from '../../src/assets/expo-go-app-logo.png'
 import InsomniaLogo from '../../src/assets/insomnia-logo.png'
+import ExpressLogo from '../../src/assets/express-js.png'
 import SectionTitle from '../components/SectionTitle';
 import { HiAcademicCap } from "react-icons/hi2";
 import { AiFillDatabase } from "react-icons/ai";
@@ -118,7 +119,7 @@ export default function NewSkillsList() {
             <div className='w-full grid grid-cols-3 sm:grid-cols-3 gap-8 text-center py-8 px-12.5 sm:px-0'>
                 <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#ff0043] shadow-slate-800 dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
                     <img 
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" 
+                        src={ExpressLogo} 
                         alt="express-logo-js"
                         className='w-20 mx-auto'
                     />

@@ -22,12 +22,14 @@ export default function About() {
       </div>
       <div className='md:w-6/12'>
         <p className='text-md text-slate-900 dark:text-slate-300 text-md md:text-xl'>
-        I've always been fascinated by technology and how it can transform the world. The flexibility and constant evolution of this field inspired me
-        to change my career from dental technology to software development.  
-        As I transition to the tech industry, I am driven by my genuine passion for the field and strong work ethic. I highly
-        value teamwork and believe in the power of collaboration. 
-        Additionally, my soft skills, such as effective time management, maintaining
-        quality standards, attention to details and staying organized will contribute to my success in this new role.
+        I've always been fascinated by technology and how it can transform the world. 
+        Starting as a dental technician, I honed my skills in maintaining high standards and attention 
+        to detail, skills I carry with me into the world of software development.
+        I thrive on learning, adaptability, and effective time management, making me a valuable asset to any project. 
+        I believe in the power of collaboration and am committed to crafting innovative solutions and 
+        valuing the unique perspectives and skills each team member brings. 
+        With a blend of precision from my dental technology background and the creativity inspired 
+        by my passion for cooking, I'm excited to make a meaningful impact.
         </p>
       <a 
         href='mailto:alessandrofrondini@gmail.com'
