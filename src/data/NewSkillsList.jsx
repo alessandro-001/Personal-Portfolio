@@ -164,8 +164,6 @@ export default function NewSkillsList() {
                     />
                     <p className='mt-4'>Insomnia</p>
                 </div>
-
-            
             </div>
 
             {/* tools tech */}
