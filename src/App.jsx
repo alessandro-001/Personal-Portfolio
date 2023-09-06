@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import MySection from "./components/MySection";
-import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import Footer from "./components/Footer";
@@ -48,7 +47,6 @@ function App() {
             <Banner />
             <MySection />
             <NewSkillsList />
-            {/* <Skills /> */}
             <Projects />
             <About />
             <Contact />
