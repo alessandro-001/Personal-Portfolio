@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Hamburger from "./components/Hamburger";
 import Banner from "./components/Banner";
 import Contact from "./components/Contact";
+import CurriculumDownload from "./components/CurriculumDownload";
 
 import NewSkillsList from "./data/NewSkillsList";
 
@@ -49,6 +50,7 @@ function App() {
             <NewSkillsList />
             <Projects />
             <About />
+            <CurriculumDownload />
             <Contact />
             <Footer />
           </div>

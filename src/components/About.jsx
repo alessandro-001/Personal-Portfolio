@@ -17,7 +17,7 @@ export default function About() {
           <img 
             src={Myself}
             className='w-full mx-auto'
-             alt='Alessandro Frondini'
+            alt='Alessandro Frondini'
           />
       </div>
       <div className='md:w-6/12'>
@@ -56,6 +56,7 @@ export default function About() {
         <VscGithub className="mr-2"/>
           GitHub
       </a>
+      
       </div>
       </div>
     </>
