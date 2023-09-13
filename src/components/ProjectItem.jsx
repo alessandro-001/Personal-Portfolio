@@ -40,6 +40,7 @@ export default function ProjectItem({imgUrl, title, tech, description, repolink,
                 src={imgUrl}
                 alt={title}
                 className="w-2/3 h-auto object-cover rounded-xl"
+                loading="lazy"
             />
             <p className="flex flex-wrap gap-4 py-4 items-center text-slate-900 dark:text-slate-300 font-medium">
                 Built with:

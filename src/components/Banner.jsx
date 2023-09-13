@@ -6,7 +6,9 @@ export default function Banner() {
     <div id='banner' className='py-5'>
         <img 
             src={BannerLogoDark} 
-            alt='banner-logo'></img>
+            alt='banner-logo'
+            loading="lazy"
+        ></img>
     </div>
   )
 }

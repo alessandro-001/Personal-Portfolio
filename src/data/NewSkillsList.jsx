@@ -90,6 +90,7 @@ export default function NewSkillsList() {
                         src={ExpoLogo}
                         alt="expo-go-logo"
                         className='w-20 mx-auto'
+                        loading='lazy'
                     />
                     <p className='mt-4'>Expo</p>
                 </div>
@@ -122,6 +123,7 @@ export default function NewSkillsList() {
                         src={ExpressLogo} 
                         alt="express-logo-js"
                         className='w-20 mx-auto'
+                        loading='lazy'
                     />
                     <p className='mt-4'>Express js</p>
                 </div>
@@ -162,6 +164,7 @@ export default function NewSkillsList() {
                         src={InsomniaLogo} 
                         alt="insomnia-logo"
                         className='w-20 mx-auto'
+                        loading='lazy'
                     />
                     <p className='mt-4'>Insomnia</p>
                 </div>

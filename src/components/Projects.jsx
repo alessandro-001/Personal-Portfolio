@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import SectionTitle from './SectionTitle';
-import ProjectItem from './ProjectItem';
+// import ProjectItem from './ProjectItem';
 import works from '../data/projects';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-
+const ProjectItem = lazy(() => import("./ProjectItem"));
 export default function Projects() {
     const sliderSettings = {
       arrows: true,
@@ -27,14 +27,16 @@ export default function Projects() {
           {works.map((work, index) => {
             return (
               <div key={index} className='project-slide'>
-                <ProjectItem
-                  imgUrl={work.imgUrl}
-                  title={work.title}
-                  tech={work.tech}
-                  description={work.description}
-                  repolink={work.repolink}
-                  weblink={work.weblink}
-                ></ProjectItem>
+                <Suspense fallback={<div>Loading...</div>}>
+                  <ProjectItem
+                    imgUrl={work.imgUrl}
+                    title={work.title}
+                    tech={work.tech}
+                    description={work.description}
+                    repolink={work.repolink}
+                    weblink={work.weblink}
+                  />
+                </Suspense>
               </div>
             );
           })}

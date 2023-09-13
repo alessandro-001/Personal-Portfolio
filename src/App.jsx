@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, lazy, Suspense } from "react";
 import MySection from "./components/MySection";
-import Projects from "./components/Projects";
-import About from "./components/About";
 import Footer from "./components/Footer";
 import Hamburger from "./components/Hamburger";
-import Banner from "./components/Banner";
 import Contact from "./components/Contact";
 import CurriculumDownload from "./components/CurriculumDownload";
-
-import NewSkillsList from "./data/NewSkillsList";
+//lazy loadings:
+const NewSkillsList = lazy (() => import("./data/NewSkillsList"));
+const Banner = lazy(() => import("./components/Banner"));
+const Projects = lazy(() => import("./components/Projects"));
+const About = lazy(() => import("./components/About"));
 
 function App() {
     const [theme, setTheme] = useState(null);
@@ -45,11 +45,15 @@ function App() {
             <Hamburger />
           </div>
           <div className="max-w-5xl mx-auto w-11/12">
-            <Banner />
+            <Suspense fallback={<div>Loading...</div>}>
+              <Banner />
+            </Suspense>
             <MySection />
-            <NewSkillsList />
-            <Projects />
-            <About />
+            <Suspense fallback={<div>Loading...</div>}>
+              <NewSkillsList />
+              <Projects />
+              <About />
+            </Suspense>
             <CurriculumDownload />
             <Contact />
             <Footer />

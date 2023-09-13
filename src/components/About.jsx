@@ -18,6 +18,7 @@ export default function About() {
             src={Myself}
             className='w-full mx-auto'
             alt='Alessandro Frondini'
+            loading='lazy'
           />
       </div>
       <div className='md:w-6/12'>
