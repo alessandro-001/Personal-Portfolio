@@ -26,7 +26,7 @@ export default function About() {
         Starting as a dental technician, I honed my skills in maintaining high standards and attention 
         to detail, abilities I carry with me into the world of software development.
         I thrive on learning, adaptability, and effective time management, making me a valuable asset to any project. 
-        I believe in the power of collaboration and am committed to crafting innovative solutions and 
+        I believe in the power of collaboration and I am committed to crafting innovative solutions and 
         valuing the unique perspectives and skills each team member brings. 
         With a blend of precision from my dental technology background and the creativity inspired 
         by my passion for cooking, I'm excited to make a meaningful impact.
