@@ -3,6 +3,7 @@ import WeatherOrNot from '../../src/assets/WeatherornotApp.png';
 import NCnewsImage from '../../src/assets/NCNEWS.png';
 import PomodoroImg from '../../src/assets/PomodoroImg.png';
 import QuiztopiaImg from '../../src/assets/QuiztopiaImg.png';
+import WeatherApp from '../../src/assets/WeatherAppMobile.png'
 
 
 const works = [
@@ -43,6 +44,13 @@ const works = [
     description: 'Quiztopia is a web application built using React, designed to offer interactive quizzes on various topics. The app features a user-friendly interface powered by Material UI for styling and CSS3 for additional design elements. Axios is used to make API calls to fetch quiz questions and Google firebase to store the results.',
     repolink: 'https://github.com/alessandro-001/React-Quiz-Application',
     weblink: 'https://quiztopia-webapp.netlify.app/',
+  },
+  {
+    title: 'Weather App - Mobile App',
+    imgUrl: WeatherApp,
+    tech: ['React Native', 'Expo', 'Figma'],
+    description: 'A mobile weather app built with React Native and Expo, providing real-time weather information using the OpenWeather API and location services via the Google Geomapping API. The app features a UI interface designed using Figma.',
+    repolink: 'https://github.com/alessandro-001/WeatherAppMobile',
   },
 ];
 
