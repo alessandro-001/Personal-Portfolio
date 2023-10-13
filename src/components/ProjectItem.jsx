@@ -33,11 +33,11 @@ export default function ProjectItem({imgUrl, title, tech, description, repolink,
                         </a>
                     )}
                 </button>
-                <p className="flex flex-wrap gap-4 py-6 items-center text-slate-900 dark:text-slate-300 font-medium">
+                <p className="flex flex-wrap gap-4 py-6 text-center items-center text-slate-900 dark:text-slate-300 font-medium">
                     {tech.map(item => (
                     <span
                         key={item}
-                        className="inline-block px-2 py-2 bg-slate-300 dark:bg-slate-700 dark:text-white rounded-lg"
+                        className="inline-block px-2 py-2 mx-auto bg-slate-300 dark:bg-slate-700 dark:text-white rounded-lg"
                     >
                         {item}
                     </span>
@@ -46,12 +46,11 @@ export default function ProjectItem({imgUrl, title, tech, description, repolink,
             </div>
             </div>
             <div className="w-full md:w-4/5 md:pl-8 flex flex-col items-center">
-            <div className="h-64 w-auto">
-
+            <div className="h-64 w-auto md:mx-auto items-center">
             <img
                 src={imgUrl}
                 alt={title}
-                className="w-2/3 h-auto object-cover rounded-xl"
+                className="w-2/3 h-auto object-cover rounded-xl mx-auto"
                 loading="lazy"
             />
             </div>
