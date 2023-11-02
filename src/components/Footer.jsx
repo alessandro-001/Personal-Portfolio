@@ -10,9 +10,6 @@ export default function Footer() {
         <p>
           © Alessandro Frondini {new Date().getFullYear()}. All rights reserved.
         </p>
-        <small className='text-xs'>
-            Skills icons provided by <a href='https://devicon.dev/' target='_blank'>Devicon</a> Copyright © 2015 Konpa
-        </small>
       </div>
     </>
   )
