@@ -40,7 +40,7 @@ function App() {
           onClick={handleThemeSwitch}
           className="fixed z-10 right-2 top-2  text-3xl p-1 rounded-md"
         >{theme === 'dark' ? '🌞' : '🌜'}</button>
-        <div className="font-inter bg:white dark:bg-slate-900">
+        <div className="font-inter bg-[#f4afaf5e] dark:bg-slate-900">
           <div>
             <Hamburger />
           </div>
