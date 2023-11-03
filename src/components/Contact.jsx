@@ -34,13 +34,13 @@ export default function Contact() {
     </div>
     <div className="py-10 flex justify-center">
       <form ref={form} onSubmit={sendEmail} className="flex flex-col w-full sm:w-1/2">
-        <div className="flex flex-col mb-4 py-2 dark:text-[#13ecd4] hover:dark:text-pink-500">
+        <div className="flex flex-col mb-4 py-2 dark:text-[#13ecd4] hover:text-blue-500 hover:dark:text-pink-500">
           <label htmlFor="user_name" className="mb-1">Name:</label>
           <input
             type="text"
             name="user_name"
             id="user_name"
-            className="border border-gray-300 dark:border-[#13ecd4] dark:hover:border-pink-500 px-3 py-2 rounded-md text-slate-900 w-full"
+            className="border border-gray-300 dark:border-[#13ecd4] hover:text-blue-500 dark:hover:border-pink-500 px-3 py-2 rounded-md text-slate-900 w-full"
             required
           />
         </div>
