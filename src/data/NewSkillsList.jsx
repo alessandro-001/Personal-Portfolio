@@ -217,7 +217,7 @@ export default function NewSkillsList() {
                     />
                     <p className='mt-4'>C++</p>
                 </div>
-                <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#00e5ff] shadow-[#005490] dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
+                <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#00ff3c] shadow-[#309000] dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
                     <img 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
                         alt="Python-logo"
