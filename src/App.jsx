@@ -54,7 +54,7 @@ function App() {
               <Projects />
               <About />
             </Suspense>
-            <CurriculumDownload />
+            {/* <CurriculumDownload /> */}
             <Contact />
             <Footer />
           </div>

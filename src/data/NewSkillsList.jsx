@@ -40,6 +40,14 @@ export default function NewSkillsList() {
                     />
                     <p className='mt-4'>Typescript</p>
                 </div>
+                <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#ff3300] shadow-[#ff3300] dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
+                    <img 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" 
+                        alt="Java-logo"
+                        className='w-20 mx-auto'
+                    />
+                    <p className='mt-4'>Java</p>
+                </div>
             </div>
 
             {/* Frontend tech */}
@@ -82,13 +90,13 @@ export default function NewSkillsList() {
                 </div>
                 <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#1ea8e1] shadow-[#1ea8e1] dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
                     <img 
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" 
                         alt="tailwindcss-logo"
                         className='w-20 mx-auto'
                     />
                     <p className='mt-4'>Tailwind</p>
                 </div>
-                <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#f2fafd] shadow-slate-800 dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
+                {/* <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#f2fafd] shadow-slate-800 dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
                     <img 
                         src={ExpoLogo}
                         alt="expo-go-logo"
@@ -96,15 +104,15 @@ export default function NewSkillsList() {
                         loading='lazy'
                     />
                     <p className='mt-4'>Expo</p>
-                </div>
-                <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#6bbffc] shadow-[#6bbffc] dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
+                </div> */}
+                {/* <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#6bbffc] shadow-[#6bbffc] dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
                     <img 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
                         alt="materialUI-logo"
                         className='w-20 mx-auto'
                     />
                     <p className='mt-4'>Material UI</p>
-                </div>
+                </div> */}
                 <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#f708ee] shadow-[#5e085b] dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
                     <img 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" 
@@ -121,7 +129,7 @@ export default function NewSkillsList() {
                 <p className="mb-2 sm:mr-2 sm:mb-0">BACKEND</p>
             </div>
             <div className='w-full grid grid-cols-3 sm:grid-cols-3 gap-8 text-center py-8 px-12.5 sm:px-0'>
-                <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#ff0043] shadow-slate-800 dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
+                {/* <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#ff0043] shadow-slate-800 dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
                     <img 
                         src={ExpressLogo} 
                         alt="express-logo-js"
@@ -129,15 +137,15 @@ export default function NewSkillsList() {
                         loading='lazy'
                     />
                     <p className='mt-4'>Express js</p>
-                </div>
-                <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#00ba2c] shadow-[#006417] dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
+                </div> */}
+                {/* <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#00ba2c] shadow-[#006417] dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
                     <img 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" 
                         alt="node-logo-js"
                         className='w-20 mx-auto'
                     />
                     <p className='mt-4'>Node js</p>
-                </div>
+                </div> */}
                 <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#084ff7] shadow-slate-800 dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
                     <img 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" 
@@ -145,6 +153,14 @@ export default function NewSkillsList() {
                         className='w-20 mx-auto'
                     />
                     <p className='mt-4'>Postgre SQL</p>
+                </div>
+                <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#f70808] shadow-slate-800 dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
+                    <img 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" 
+                        alt="postgresql-logo"
+                        className='w-20 mx-auto'
+                    />
+                    <p className='mt-4'>Oracle SQL</p>
                 </div>
                 <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#ff9500] shadow-[#FF6900] dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
                     <img 
@@ -193,7 +209,7 @@ export default function NewSkillsList() {
                         alt="VSC-logo"
                         className='w-20 mx-auto'
                     />
-                    <p className='mt-4'>VSC</p>
+                    <p className='mt-4'>Visual Studio C</p>
                 </div>
                 <div className='shadow-md hover:scale-110 duration-500 py-4 px-4 rounded-xl dark:shadow-[#48f708] shadow-[#2a531b] dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
                     <img 
@@ -203,8 +219,16 @@ export default function NewSkillsList() {
                     />
                     <p className='mt-4'>Codelite</p>
                 </div>
+                <div className='shadow-md hover:scale-110 duration-500 py-4 px-4 rounded-xl dark:shadow-[#f77008] shadow-[#2a531b] dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
+                    <img 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eclipse/eclipse-original.svg" 
+                        alt="Codelite-logo"
+                        className='w-20 mx-auto'
+                    />
+                    <p className='mt-4'>Eclipse IDE</p>
+                </div>
             </div>
-            <div className="flex flex-col sm:flex-row items-center">
+            {/* <div className="flex flex-col sm:flex-row items-center">
                 <GiBinoculars className="w-20 h-20 px-5"></GiBinoculars>
                 <p className="mb-2 sm:mr-2 sm:mb-0">CURRENTLY EXPLORING</p>
             </div>
@@ -225,7 +249,7 @@ export default function NewSkillsList() {
                     />
                     <p className='mt-4'>Python</p>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
   )

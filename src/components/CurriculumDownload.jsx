@@ -1,5 +1,5 @@
 import React from 'react';
-import Curriculum from "../../src/assets/Alessandro-Frondini-CV.pdf";
+import Curriculum from "../../src/assets/Alessandro-Frondini.pdf";
 
 
 export default function CurriculumDownload() {
