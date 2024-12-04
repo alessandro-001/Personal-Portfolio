@@ -187,6 +187,15 @@ export default function NewSkillsList() {
                     />
                     <p className='mt-4'>Insomnia</p>
                 </div>
+                <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#009dff] shadow-[#009dff] dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
+                    <img 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original-wordmark.svg" 
+                        alt="SQLite-logo"
+                        className='w-20 mx-auto'
+                        loading='lazy'
+                    />
+                    <p className='mt-4'>SQLite</p>
+                </div>
             </div>
 
             {/* tools tech */}
