@@ -48,6 +48,14 @@ export default function NewSkillsList() {
                     />
                     <p className='mt-4'>Java</p>
                 </div>
+                <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-xl dark:shadow-[#d000ffd5] shadow-[#d000ffd5] dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
+                    <img 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" 
+                        alt="Csharp-logo"
+                        className='w-20 mx-auto'
+                    />
+                    <p className='mt-4'>C#</p>
+                </div>
             </div>
 
             {/* Frontend tech */}
@@ -218,7 +226,7 @@ export default function NewSkillsList() {
                         alt="VSC-logo"
                         className='w-20 mx-auto'
                     />
-                    <p className='mt-4'>Visual Studio C</p>
+                    <p className='mt-4'>Visual Studio Code</p>
                 </div>
                 <div className='shadow-md hover:scale-110 duration-500 py-4 px-4 rounded-xl dark:shadow-[#48f708] shadow-[#2a531b] dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
                     <img 
