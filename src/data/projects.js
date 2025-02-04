@@ -3,10 +3,18 @@ import WeatherOrNot from '../../src/assets/WeatherornotApp.png';
 import NCnewsImage from '../../src/assets/NCNEWS.png';
 import PomodoroImg from '../../src/assets/PomodoroImg.png';
 import QuiztopiaImg from '../../src/assets/QuiztopiaImg.png';
-import WeatherApp from '../../src/assets/WeatherAppMobile.png'
+import WeatherApp from '../../src/assets/WeatherAppMobile.png';
+import PortfolioImg from '../../src/assets/PortfolioImg.png';
 
 
 const works = [
+  {
+    title: 'Personal Portfolio',
+    imgUrl: PortfolioImg,
+    tech: ['Javascript', 'React', 'TailwindCSS'],
+    description: 'This project showcases my web development work and skills. I created this portfolio using React and Vite.js. The UI is styled with Tailwind CSS. Explore my projects, skills, and experience in this visually appealing web page.',
+    repolink: 'https://github.com/alessandro-001/Personal-Portfolio',
+  },
   {
     title: 'Love Birds - Mobile App',
     imgUrl: LoveBirdsImage,
@@ -22,14 +30,14 @@ const works = [
     repolink: 'https://github.com/alessandro-001/WeatherOrNot',
     weblink: 'https://weatherornot4114.netlify.app/'
   },
-  {
-    title: 'NC News - Web App',
-    imgUrl: NCnewsImage,
-    tech: ['React', 'Insomnia', 'CSS3'],
-    description: 'NC news revolves around fetching article data from an external API and rendering it for an enhanced user experience. The project demonstrates utilising simple API integration, data fetching, and front-end rendering techniques to create an appealing interface for users to explore articles.',
-    repolink: 'https://github.com/alessandro-001/fe-project-nc-news',
-    weblink: 'https://alessandro-news.netlify.app/',
-  },
+  // {
+  //   title: 'NC News - Web App',
+  //   imgUrl: NCnewsImage,
+  //   tech: ['React', 'Insomnia', 'CSS3'],
+  //   description: 'NC news revolves around fetching article data from an external API and rendering it for an enhanced user experience. The project demonstrates utilising simple API integration, data fetching, and front-end rendering techniques to create an appealing interface for users to explore articles.',
+  //   repolink: 'https://github.com/alessandro-001/fe-project-nc-news',
+  //   weblink: 'https://alessandro-news.netlify.app/',
+  // },
   {
     title: 'Pomodoro Timer - Mobile App',
     imgUrl: PomodoroImg,
