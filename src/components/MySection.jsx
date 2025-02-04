@@ -8,13 +8,16 @@ function MySection() {
         <div className="text-center">
           <div className="text-2xl md:text-4xl mb-1 md:mb-5 text-slate-800 font-semibold dark:text-[#13ecd4]">
             <Typewriter
+              options={{ loop: true }}
               onInit={(typewriter) => {
-                  typewriter
-                      .changeDelay(30)
-                      .pauseFor(500)
-                      .typeString("Hi I'm Alessandro!")
-                      .pauseFor(1000)
-                      .start();
+                typewriter
+                  .changeDelay(30) // speed
+                  .pauseFor(500) // Pause 
+                  .typeString("Hi I'm Alessandro!")
+                  .pauseFor(2000) // Pause
+                  .deleteAll(50) // Delete text speed
+                  .pauseFor(1000) // Pause
+                  .start(); // Restart
               }}
             />
           </div>
@@ -31,8 +34,7 @@ function MySection() {
               Please feel free to reach out if you have any openings or collaborations in mind!
             </p>
           </div>
-
-          
+       
           {/* Buttons */}
           <div className="flex flex-wrap justify-center">
             <a href="#projects" className="inline-block mx-2 mb-2 md:mx-2 md:mb-0 px-8 py-4 border border-slate-900 dark:border-[#13ecd4] dark:hover:border-pink-500 text-base font-medium rounded-md text-slate-900 dark:text-[#13ecd4] hover:bg-slate-900 dark:hover:text-pink-500 hover:text-white md:text-md">Projects</a>
