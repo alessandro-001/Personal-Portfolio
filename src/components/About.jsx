@@ -1,6 +1,7 @@
 import React from 'react'
 import SectionTitle from './SectionTitle'
 import Myself from '../../src/assets/Me-noBg.png'
+import NortcodersCertificate from '../../src/assets/NorthcodersCertificate.png'
 import { TfiEmail } from "react-icons/tfi";
 import { VscGithub } from "react-icons/vsc";
 import { BsLinkedin } from "react-icons/bs";
@@ -59,6 +60,23 @@ export default function About() {
       </a>
       
       </div>
+      </div>
+      {/* Certification Section */}
+      <div className='py-10'>
+        <SectionTitle>Certifications</SectionTitle>
+        <div className='flex flex-col items-center mt-5'>
+          <figure className='w-10/12 md:w-6/12 shadow-lg rounded-lg overflow-hidden'>
+            <img 
+              src={NortcodersCertificate}
+              className='w-full'
+              alt='Northcoders Certificate'
+              loading='lazy'
+            />
+            <figcaption className='text-center text-sm text-slate-700 dark:text-slate-300 mt-2'>
+              Northcoders Software Development Bootcamp Certificate
+            </figcaption>
+          </figure>
+        </div>
       </div>
     </>
 

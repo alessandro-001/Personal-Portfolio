@@ -1,5 +1,8 @@
 node_modules
 .env
+src/assets/*
+!src/assets/.gitkeep
+
 
 # misc
 .DS_Store
