@@ -2,3 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* Flash text animation css */
+@keyframes flashBorderText {
+  0% {
+    color: #f472b6; 
+    border-color: #13ecd4; 
+  }
+  50% {
+    color: #13ecd4; 
+    border-color: #f472b6;
+  }
+  100% {
+    color: #f472b6; 
+    border-color: #13ecd4;
+  }
+}
+
+.animate-flash-border-text {
+  animation: flashBorderText 3s infinite ease-in-out;
+  transition: color 0.5s, border-color 0.5s;
+}
+
+
+
+
+  
