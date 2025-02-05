@@ -1,6 +1,6 @@
 import LoveBirdsImage from '../../src/assets/LOVE-BIRDS-app1.png';
 import WeatherOrNot from '../../src/assets/WeatherornotApp.png';
-import NCnewsImage from '../../src/assets/NCNEWS.png';
+//import NCnewsImage from '../../src/assets/NCNEWS.png';
 import PomodoroImg from '../../src/assets/PomodoroImg.png';
 import QuiztopiaImg from '../../src/assets/QuiztopiaImg.png';
 import WeatherApp from '../../src/assets/WeatherAppMobile.png';
