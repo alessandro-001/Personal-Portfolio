@@ -30,8 +30,8 @@ function MySection() {
 
           <div className="inline-block mx-2 mb-8 md:mx-2 md:mb-8 px-8 py-4 border rounded-md bg-slate-100 dark:bg-slate-800 animate-flash-border-text">
             <p className="text-xl md:text-3xl animate-flash-border-text">
-              I am excited to kick-start my career in tech! Looking for software development opportunities of any kind. 
-              Please feel free to reach out if you have any openings or collaborations in mind!
+            I'm eager to launch my career in tech and ready to take on software development opportunities of any kind! 
+            Whether it's a full-time role, internship, or collaboration, I'd love to connect. Feel free to reach out!
             </p>
           </div>
        
