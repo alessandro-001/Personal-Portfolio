@@ -239,10 +239,18 @@ export default function NewSkillsList() {
                 <div className='shadow-md hover:scale-110 duration-500 py-4 px-4 rounded-xl dark:shadow-[#f77008] shadow-[#2a531b] dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
                     <img 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eclipse/eclipse-original.svg" 
-                        alt="Codelite-logo"
+                        alt="Eclipse-logo"
                         className='w-20 mx-auto'
                     />
                     <p className='mt-4'>Eclipse IDE</p>
+                </div>
+                <div className='shadow-md hover:scale-110 duration-500 py-4 px-4 rounded-xl dark:shadow-[#f7f308] shadow-[#53311b] dark:hover:text-pink-500 sm:py-2 sm:w-64 md:w-72'>
+                    <img 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tomcat/tomcat-original.svg" 
+                        alt="Tomcat-logo"
+                        className='w-20 mx-auto'
+                    />
+                    <p className='mt-4'>Tomcat</p>
                 </div>
             </div>
             {/* <div className="flex flex-col sm:flex-row items-center">
