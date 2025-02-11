@@ -3,8 +3,8 @@ import WeatherOrNot from '../../src/assets/WeatherornotApp.png';
 import PomodoroImg from '../../src/assets/PomodoroImg.png';
 import QuiztopiaImg from '../../src/assets/QuiztopiaImg.png';
 import WeatherApp from '../../src/assets/WeatherAppMobile.png';
-import PortfolioImage from '../../src/assets/PortfolioImage.png';
-import ApplianceList from '../../src/assets/applianceList.png';
+import PortfolioImage from 'dist/assets/PortfolioImage.png';
+import ApplianceList from 'dist/assets/applianceList.png';
 
 
 const works = [
