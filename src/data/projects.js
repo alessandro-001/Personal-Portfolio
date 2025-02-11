@@ -1,10 +1,10 @@
 import LoveBirdsImage from '../../src/assets/LOVE-BIRDS-app1.png';
 import WeatherOrNot from '../../src/assets/WeatherornotApp.png';
-//import NCnewsImage from '../../src/assets/NCNEWS.png';
 import PomodoroImg from '../../src/assets/PomodoroImg.png';
 import QuiztopiaImg from '../../src/assets/QuiztopiaImg.png';
 import WeatherApp from '../../src/assets/WeatherAppMobile.png';
 import PortfolioImg from '../../src/assets/PortfolioImg.png';
+import ApplianceList from '../../src/assets/applianceList.png';
 
 
 const works = [
@@ -25,7 +25,7 @@ const works = [
   {
     title: 'WeatherOrNot - Web App',
     imgUrl: WeatherOrNot,
-    tech: ['React', 'Insomnia', 'CSS3'],
+    tech: ['React', 'Insomnia', 'CSS'],
     description: 'WeatherOrNot is a simple free web app that originated from a paired sprint with my colleague and has undergone further development. It effectively interacts with an external API, allowing users to access and retrieve accurate weather information.',
     repolink: 'https://github.com/alessandro-001/WeatherOrNot',
     weblink: 'https://weatherornot4114.netlify.app/'
@@ -40,7 +40,7 @@ const works = [
   {
     title: 'Quiztopia - Web App',
     imgUrl: QuiztopiaImg,
-    tech: ['React', 'Firebase', 'Material-UI', 'CSS3'],
+    tech: ['React', 'Firebase', 'Material-UI', 'CSS'],
     description: 'Quiztopia is a web application built using React, designed to offer interactive quizzes on various topics. The app features a user-friendly interface powered by Material UI for styling and CSS3 for additional design elements. Axios is used to make API calls to fetch quiz questions and Google firebase to store the results.',
     repolink: 'https://github.com/alessandro-001/React-Quiz-Application',
     weblink: 'https://quiztopia-webapp.netlify.app/',
@@ -51,6 +51,13 @@ const works = [
     tech: ['React Native', 'Expo', 'Figma'],
     description: 'A mobile weather app built with React Native and Expo, providing real-time weather information using the OpenWeather API and location services via the Google Geomapping API. The app features a UI interface designed using Figma.',
     repolink: 'https://github.com/alessandro-001/WeatherAppMobile',
+  },
+  {
+    title: 'Appliance Store Manager - Web App',
+    imgUrl: ApplianceList,
+    tech: ['Java', 'HTML', 'CSS', "Bootstrap", "BCrypt"],
+    description: 'Home Appliance Store is a Java-based application for managing home appliances and customer data. It features a console menu and a web interface for browsing products, handling orders, and managing inventory with an SQLite database.',
+    repolink: 'https://github.com/alessandro-001/Appliance-Store',
   },
 ];
 
