@@ -2,7 +2,7 @@ node_modules
 .env
 src/assets/*
 
-
+src/assets/Alessandro-Frondini-DEV-cv.pdf
 
 # misc
 .DS_Store
