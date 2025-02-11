@@ -250,7 +250,7 @@ export default function NewSkillsList() {
                         alt="Tomcat-logo"
                         className='w-20 mx-auto'
                     />
-                    <p className='mt-4'>Tomcat</p>
+                    <p className='mt-4'>Tomcat</p> 
                 </div>
             </div>
             {/* <div className="flex flex-col sm:flex-row items-center">
