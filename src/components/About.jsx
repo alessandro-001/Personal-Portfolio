@@ -36,14 +36,12 @@ export default function About() {
         </div>
         <div className='md:w-6/12'>
           <p className='text-md text-slate-900 dark:text-slate-300 text-md md:text-xl'>
-            I've always been fascinated by technology and how it can transform the world. 
-            Starting as a dental technician, I honed my skills in maintaining high standards and attention 
-            to detail, abilities I carry with me into the world of software development.
-            I thrive on learning, adaptability, and effective time management, making me a valuable asset to any project. 
-            I believe in the power of collaboration and I am committed to crafting innovative solutions and 
-            valuing the unique perspectives and skills each team member brings. 
+            I've always been captivated by technology and its power to transform the world. My journey began as a dental technician, 
+            where I developed a keen eye for precision and high standards—skills I now apply to software development. 
+            I thrive in dynamic environments, embracing adaptability, continuous learning, and effective time management. 
+            Passionate about collaboration, I believe in crafting innovative solutions while valuing the diverse perspectives of every team member.
             With a blend of precision from my dental technology background and the creativity inspired 
-            by my passion for cooking, I'm excited to make a meaningful impact.
+            by my love for technologies and music, I'm excited to make a meaningful impact.
           </p>
           <a 
             href='mailto:alessandrofrondini@gmail.com'
