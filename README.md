@@ -7,9 +7,6 @@
     </br>
 </div>
 
-Welcome to my portfolio! This is a showcase of my work, skills, and experience in software development. I graduated from [Northcoders](https://www.northcoders.com/), an intensive full-stack coding bootcamp, where I gained a solid foundation in web development.
-
-Direct link --> https://alessandrofrondini.netlify.app/
 
 ## Table of Contents
 

@@ -35,9 +35,6 @@ export default function Hamburger() {
             <li className="bg-slate-300 dark:bg-gray-400 rounded-lg text-center" onClick={handleMenuItemClick}>
               <a href="#about-me" className="dark:hover:text-pink-500 hover:text-pink-500">About Me</a>
             </li>
-            <li className="bg-slate-300 dark:bg-gray-400 rounded-lg text-center" onClick={handleMenuItemClick}>
-              <a href="#contact" className="dark:hover:text-pink-500 hover:text-pink-500">Contact</a>
-            </li>
           </ul>
         )}
       </div>
